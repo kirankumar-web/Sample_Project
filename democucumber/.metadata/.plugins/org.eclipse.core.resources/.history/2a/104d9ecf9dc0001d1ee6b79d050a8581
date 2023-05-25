@@ -1,0 +1,8 @@
+Feature: validating login feature
+
+  Scenario: check login with multiple user credentials
+    Given launch the browser
+    And Navigate to login page
+    When enter the valid username and password
+    And click on login button
+    Then Navigate to user homepage
